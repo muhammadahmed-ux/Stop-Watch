@@ -4,11 +4,6 @@ var stopBtn = document.getElementById("stop");
 var resetBtn = document.getElementById("reset");
 
 
-// console.log(display);
-// console.log(startBtn);
-// console.log(stopBtn);
-// console.log(resetBtn);
-
 var hours = 0;
 var minutes = 0;
 var seconds = 0;
