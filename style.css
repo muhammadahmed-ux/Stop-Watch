@@ -1,0 +1,71 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-image: url(assets/pexels-pixabay-531880.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 20px 0 20px;
+}
+
+.container{
+  background: rgba(255, 255, 255, 0.014);
+  backdrop-filter: blur(20px);
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+}
+
+.stopwatch{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.stopwatch h1{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.display{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.buttons{
+    padding: 15px;
+}
+
+button{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#start{
+  background-color: green;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#stop{
+  background-color: red;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#reset{
+  background-color: rgb(224, 163, 20);
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+}
